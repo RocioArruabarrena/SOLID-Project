@@ -1,2 +1,0 @@
-El enfoque en el que esta planteado el proyecto reporte, en este caso, es la forma correcta de usar SRP, cada clase
-tiene solo una responsabilidad, de esta manera no se viola el patron de diseño. 
