@@ -18,3 +18,8 @@ tener por lo menos 4 motivos de cambios y eso pasa a no ser single responsibilit
 
 ¿Cual es la manera correcta de aplicar el patron SPR?
 La manera correcta es la de la carpeta Patron, porque l enfoque en el que esta planteado el proyecto reporte, en este caso, es la forma correcta de usar SRP, cada clase tiene solo una responsabilidad, de esta manera no se viola el patron de diseño. 
+
+
+Se agregaron los patrones Open/Close Principle y Liskov Substitution Principle. 
+El patron OCP dice que las clases deben estar abiertas para extensión, pero cerradas para modificación 
+El patron LSP dice que una clase hija tienen que poder reemplazar los objetos de su clase padre sin alterar el comportamiento esperado. 
