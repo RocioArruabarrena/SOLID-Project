@@ -1,4 +1,4 @@
-from reporte.interfaces.i_generador_salida import IGeneradorSalida
+from service.interfaces.i_generador_salida import IGeneradorSalida
 
 class GeneradorTexto(IGeneradorSalida):
     def generar(self, resultado):

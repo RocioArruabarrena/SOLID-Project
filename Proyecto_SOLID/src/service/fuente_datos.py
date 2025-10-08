@@ -1,4 +1,4 @@
-from reporte.interfaces.i_fuente_datos import IFuenteDeDatos
+from service.interfaces.i_fuente_datos import IFuenteDeDatos
 
 class FuenteDeDatosLista(IFuenteDeDatos):
     def obtener_datos(self):

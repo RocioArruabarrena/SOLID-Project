@@ -1,4 +1,4 @@
-from reporte.interfaces.i_almacenamiento import IAlmacenamiento
+from service.interfaces.i_almacenamiento import IAlmacenamiento
 
 class AlmacenamientoArchivo(IAlmacenamiento):
     def guardar(self, contenido):

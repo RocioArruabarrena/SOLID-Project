@@ -1,4 +1,4 @@
-from reporte.interfaces.i_procesar_datos import IProcesarDatos
+from service.interfaces.i_procesar_datos import IProcesarDatos
 
 
 class ProcesarPromedio(IProcesarDatos):
