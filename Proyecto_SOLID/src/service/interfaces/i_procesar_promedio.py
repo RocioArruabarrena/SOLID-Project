@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-class IGeneradorSalida(ABC):
+class IProcesarPromedio(ABC):
     @abstractmethod
-    def generar(self, resultado):
+    def procesar(self, datos):
         pass

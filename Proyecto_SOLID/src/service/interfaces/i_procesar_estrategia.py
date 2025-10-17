@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-class IProcesarDatos(ABC):
+class IProcesarEstrategia(ABC):
     @abstractmethod
     def procesar(self, datos):
         pass

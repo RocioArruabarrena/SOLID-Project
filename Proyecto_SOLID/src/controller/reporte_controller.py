@@ -1,8 +1,10 @@
-from service.fuente_datos import FuenteDeDatosLista
-from service.procesar_datos import ProcesadorEstrategia, ProcesarPromedio, ProcesarMaximo
-from service.generador_salida import GeneradorTexto
-from service.almacenamiento import AlmacenamientoArchivo
+from dao.fuente_datos import FuenteDeDatosLista
+from service.procesar_promedio import ProcesarPromedio
+from service.generador_texto import GeneradorTexto
+from service.almacenamiento_archivo import AlmacenamientoArchivo
 from service.reporte import Reporte
+from service.procesar_estrategia import ProcesadorEstrategia
+from service.procesar_maximo import ProcesarMaximo
 
 
 class ReporteController:
